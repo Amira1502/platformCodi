@@ -1,0 +1,53 @@
+.card-add-edit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2%;
+    margin-top: 4%;
+    margin-left: 28%;
+    width: 45%;
+  
+  }
+  
+  .form{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+  }
+  
+  .form-control-title{
+    display: flex;
+    width: 180%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid#3dcdff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form-control-description{
+    display: flex;
+    width: 180%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #3dcdff;
+    background-color: #fafafa;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .add-btn,
+  .edit-btn {
+    margin-top: 5%;
+    width: 70px;
+    cursor: pointer;
+  }
